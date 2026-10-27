@@ -1,7 +1,7 @@
 <!-- Unit 3 Project
 Requirements
 [  ] Two External Links
-[  ] Table (minimum 2 Columns by 3 Rows)
+[  ] Table (minimum 2 Columns by 3 Rows) yes
 [  ] Three CSS Rules
 [  ] Three Images
 
@@ -20,24 +20,33 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+    td, th, table{
+      border: 1px solid black;
+    }
+    body{
+
+    background-color:rgb(255,201,64);}
+    #text{
+      color:orange
+    }
   </style>
 </head>
 
 <body>
 
-  <h1>____'s Recipe Book</h1>
+  <h1 class="text">Natasha's Recipe Book</h1>
 
-  <h2>Contents:</h2>
+  <h2 class="text">Contents:</h2>
 
-  <ol>
+  <ol class="text">
     <li><a href="?">Recipe #1</a></li>
   </ol>
 
   <h2 id="?">Recipe #1</h2>
 
   <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
+    <li>Time: 10 minutes</li>
+    <li>Serves: 1 person (or more if you choose to cook multiple servings)</li>
   </ul>
 
   <table>
@@ -49,8 +58,20 @@ Select ONE Additional Feature to Add
     </thead>
     <tbody>
       <tr>
-        <td>Ingredient #1</td>
-        <td>Quantity #1</td>
+        <td>Maggi Instant Noodles Packet</td>
+        <td>One per serving</td>
+      </tr>
+      <tr>
+        <td>Water</td>
+        <td>1.5 cups per serving</td>
+      </tr>
+      <tr>
+        <td>Optional: Vegetables</td>
+        <td>However much you want</td>
+      </tr>
+      <tr>
+        <td>Tumeric</td>
+        <td>1/4 a teaspoon per serving</td>
       </tr>
     </tbody>
   </table>
@@ -58,6 +79,9 @@ Select ONE Additional Feature to Add
   <p><strong>Step 1:</strong> Do something.
   </p>
 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Iyq1W6MlOdO1YlvuOrnOtNJcBbZ1wyoeOVWerxP54GM4DM-TziyYUKj1&s=10" width="250"> <br>
+<img src="https://preview.redd.it/i-ate-peri-peri-maggi-v0-pftt7id7i4261.jpg?width=1080&crop=smart&auto=webp&s=633da6b3e0df93453ecac1578c9be99f5f40aa01" width="250"><br>
+<img src="https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photosV2/4f44d6f6-15a9-44b1-aec1-2104fed263e7-retina-large-variant-1.jpg" width="250">
   <p><em>Source: <a href="?">Some recipes websites</a></em></p>
 
 </body>
