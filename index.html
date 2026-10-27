@@ -2,8 +2,8 @@
 Requirements
 [  ] Two External Links
 [  ] Table (minimum 2 Columns by 3 Rows) yes
-[  ] Three CSS Rules
-[  ] Three Images
+[  ] Three CSS Rules yes
+[  ] Three Images yes
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect
@@ -21,13 +21,13 @@ Select ONE Additional Feature to Add
   <meta charset="utf-8">
   <style>
     td, th, table{
-      border: 1px solid black;
+      border: 1px solid hsl(22, 100%, 33%);
     }
     body{
 
     background-color:rgb(255,201,64);}
-    #text{
-      color:orange
+    .text{
+      color: rgb(184, 62, 6)
     }
   </style>
 </head>
@@ -39,17 +39,17 @@ Select ONE Additional Feature to Add
   <h2 class="text">Contents:</h2>
 
   <ol class="text">
-    <li><a href="?">Recipe #1</a></li>
+    <li><a class="text" href="?">Recipe #1</a></li>
   </ol>
 
-  <h2 id="?">Recipe #1</h2>
+  <h2 class="text"id="?">Recipe #1</h2>
 
-  <ul>
+  <ul class="text">
     <li>Time: 10 minutes</li>
     <li>Serves: 1 person (or more if you choose to cook multiple servings)</li>
   </ul>
 
-  <table>
+  <table class="text">
     <thead>
       <tr>
         <th>Ingredients</th>
@@ -73,10 +73,20 @@ Select ONE Additional Feature to Add
         <td>Tumeric</td>
         <td>1/4 a teaspoon per serving</td>
       </tr>
+      <tr>
+        <td>Optional: Butter</td>
+        <td>However much you want to soften it (however it dulls taste)</td>
+      </tr>
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Do something.
+  <p class="text">
+    <strong>Step 1:</strong> Pour water into a pot. <br>
+    <strong>Step 2:</strong> Put it onto the stove. <br>
+    <strong>Step 3:</strong> Turn on the stove to the appropriate setting. <br>
+    <strong>Step 4:</strong> Put in the noodles. <br>
+    <strong>Step 5:</strong> Put in the masalas/flavor packets. <br>
+    <strong>Step 6:</strong> Optional: put in the tumeric. <br>
   </p>
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Iyq1W6MlOdO1YlvuOrnOtNJcBbZ1wyoeOVWerxP54GM4DM-TziyYUKj1&s=10" width="250"> <br>
